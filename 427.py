@@ -12,8 +12,6 @@ class Node:
 
 class Solution:
     """
-    
-    
     Time Complexity: O(n^2 * log n) binary search mixed with matrix brute search
     Space Complexity: O(log n) we are divideing the matrix into quarters. If there was a case with alternating 0 1 0 1...
                                then the complexity would be n^2  
